@@ -2,7 +2,7 @@ import os
 import sys
 import json
 
-from dotenv import load_dotenv
+from dotenv import load_dotenv # type: ignore
 load_dotenv()
 MONGO_DB_URL = os.getenv("MONGO_DB_URL")
 print(MONGO_DB_URL)
@@ -13,7 +13,7 @@ ca = certifi.where()
 import pandas as pd
 import numpy as np
 
-import pymongo
+import pymongo # type: ignore
 
 from Network_Security.exception.exception import NetworkSecurityException
 from Network_Security.logger.logger import logging
