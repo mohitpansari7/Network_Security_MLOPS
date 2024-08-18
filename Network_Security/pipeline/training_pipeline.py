@@ -21,7 +21,7 @@ from Network_Security.entity.config_entity import (
     ModelPusherConfig
 )
 
-from Network_Security.entity.config_entity import (
+from Network_Security.entity.artifact_entity import (
     DataIngestionArtifact,
     DataTransformationArtifact,
     DataValidationArtifact,
