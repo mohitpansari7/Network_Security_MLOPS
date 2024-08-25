@@ -7,4 +7,10 @@ scikit-learn
 dill
 pyyaml
 xgboost
+fastapi
+uvicorn
+apache-airflow
+ipykernel
+mlflow
+dvc
 -e .
